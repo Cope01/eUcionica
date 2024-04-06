@@ -11197,11 +11197,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\petar\\OneDrive\\Radna površina\\eUcionica-master\\eUcionica\\eUcionica.csproj",
+      "projectUniqueName": "C:\\VS2022\\Projekat\\eUcionica\\eUcionica\\eUcionica.csproj",
       "projectName": "eUcionica",
-      "projectPath": "C:\\Users\\petar\\OneDrive\\Radna površina\\eUcionica-master\\eUcionica\\eUcionica.csproj",
+      "projectPath": "C:\\VS2022\\Projekat\\eUcionica\\eUcionica\\eUcionica.csproj",
       "packagesPath": "C:\\Users\\petar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\petar\\OneDrive\\Radna površina\\eUcionica-master\\eUcionica\\obj\\",
+      "outputPath": "C:\\VS2022\\Projekat\\eUcionica\\eUcionica\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\petar\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -11218,11 +11218,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\petar\\OneDrive\\Radna površina\\eUcionica-master\\DatabaseContext\\DatabaseContext.csproj": {
-              "projectPath": "C:\\Users\\petar\\OneDrive\\Radna površina\\eUcionica-master\\DatabaseContext\\DatabaseContext.csproj"
+            "C:\\VS2022\\Projekat\\eUcionica\\DatabaseContext\\DatabaseContext.csproj": {
+              "projectPath": "C:\\VS2022\\Projekat\\eUcionica\\DatabaseContext\\DatabaseContext.csproj"
             },
-            "C:\\Users\\petar\\OneDrive\\Radna površina\\eUcionica-master\\DatabaseEntityLib\\DatabaseEntityLib.csproj": {
-              "projectPath": "C:\\Users\\petar\\OneDrive\\Radna površina\\eUcionica-master\\DatabaseEntityLib\\DatabaseEntityLib.csproj"
+            "C:\\VS2022\\Projekat\\eUcionica\\DatabaseEntityLib\\DatabaseEntityLib.csproj": {
+              "projectPath": "C:\\VS2022\\Projekat\\eUcionica\\DatabaseEntityLib\\DatabaseEntityLib.csproj"
             }
           }
         }

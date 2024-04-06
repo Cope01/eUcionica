@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U8cm+gKQOBLY50wdNvXnecS2SAjcnsUVdS09E0igXfQkEETn+LDZmUDzNjVEgJbWJfl6yA7eKOajL1wegNmPaQ==",
+  "dgSpecHash": "qrENR/zw+TSzWGa90sf74zEP6xjmsvyh8xpzuwUquzni8QgDpUdElqyY5pnv+I4R0EVHLoHO8du8b8So335ksw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\petar\\OneDrive\\Radna površina\\eUcionica-master\\eUcionica\\eUcionica.csproj",
+  "projectFilePath": "C:\\VS2022\\Projekat\\eUcionica\\eUcionica\\eUcionica.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\petar\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\petar\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
