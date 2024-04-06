@@ -1,0 +1,42 @@
+﻿@page
+@model eUcionica.Pages.OblastiFolder.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Oblasti</h1>
+
+<p>
+    <a asp-page="Create" class="btn btn-outline-dark">Napravi novu </a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Oblasti[0].Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Oblasti[0].IDPredmeta)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Oblasti) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IDPredmeta)
+            </td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@item.ID" class="btn btn-outline-dark">Prepravi</a>
+                    <a asp-page="./Delete" asp-route-id="@item.ID" class="btn btn-outline-dark">Izbrisi</a>
+                    <a asp-page="./Details" asp-route-id="@item.ID" class="btn btn-outline-dark">Detalji</a>
+                </td>
+        </tr>
+}
+    </tbody>
+</table>

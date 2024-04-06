@@ -1,0 +1,50 @@
+﻿@page
+@model 			DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Izbrisi</h1>
+
+<h3>Da li ste siurni da zelite da obrisete pitanje?</h3>
+<div>
+    <h4>Zadaci</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Zadaci.Nivo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Zadaci.Nivo)
+        </dd>
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Zadaci.Pitanje)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Zadaci.Pitanje)
+        </dd>
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Zadaci.Odgovor)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Zadaci.Odgovor)
+        </dd>
+        <dt class="col-sm-2">
+            @if (Model.Zadaci.Slika != null)
+            {
+                <img class="block" src="~/slike/@Model.Zadaci.Slika" alt="" width="500" height="auto" />
+            }
+        </dt>
+    </dl>
+    <br />
+    <br />
+    <form method="post">
+        <input type="hidden" asp-for="Zadaci.ID" />
+        <input type="submit" value="Delete" class="btn btn-outline-dark" /> |
+        <a asp-page="./zadatak">Vrati se nazad</a>
+    </form>
+</div>

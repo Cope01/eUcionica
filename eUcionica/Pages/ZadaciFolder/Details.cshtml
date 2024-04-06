@@ -1,0 +1,50 @@
+﻿@page
+@model 			DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Detaljno</h1>
+
+<div>
+    <h4>o zadatku</h4>
+    <hr />
+    <dl class="row">
+
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Zadaci.Nivo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Zadaci.Nivo)
+        </dd>
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Zadaci.Pitanje)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Zadaci.Pitanje)
+        </dd>
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Zadaci.Odgovor)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Zadaci.Odgovor)
+        </dd>
+        <dt class="col-sm-2">
+            @if (Model.Zadaci.Slika != null)
+            {
+                <img class="block" src="~/slike/@Model.Zadaci.Slika" width="650" height="650" />
+            }
+        </dt>
+    </dl>
+</div>
+<br />
+<br />
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Zadaci?.ID">Izmeni</a> |
+    <a asp-page="./zadatak">Vrati se nazad</a>
+</div>

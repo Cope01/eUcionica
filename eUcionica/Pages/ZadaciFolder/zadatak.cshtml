@@ -1,0 +1,70 @@
+﻿@page
+@model             ZadaciModel
+
+@{
+    ViewData["Title"] = "Zadaci";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Zadaci</h1>
+
+<form method="post">
+    <input type="text" asp-for="SearchText">
+    <input type="submit" class="btn btn-outline-dark" value="Pretraži">
+</form>
+
+<p>
+    <a asp-page="Create" class="btn btn-outline-dark" >Napravi nov zadatak</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Zadaci[0].Predmet)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Zadaci[0].Oblast)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Zadaci[0].Pitanje)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Zadaci[0].Nivo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Zadaci[0].Slika)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Zadaci)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => (item.Predmet.Name))
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Oblast.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Pitanje)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nivo)
+                </td>
+                <td>
+                    @if (item.Slika != null)
+                    {
+                        <img class="block" src="~/slike/@item.Slika" width="60" height="60" />
+                    }
+                </td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@item.ID" class="btn btn-outline-dark">Izmeni</a>
+                    <a asp-page="./Delete" asp-route-id="@item.ID" class="btn btn-outline-dark">Izbrisi</a>
+                    <a asp-page="./Details" asp-route-id="@item.ID" class="btn btn-outline-dark">Detaljno</a>
+                </td>
+             
+            </tr>
+        }
+    </tbody>
+</table>

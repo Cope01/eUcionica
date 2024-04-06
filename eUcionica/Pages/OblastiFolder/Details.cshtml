@@ -1,0 +1,31 @@
+﻿@page
+@model eUcionica.Pages.OblastiFolder.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Detalji</h1>
+
+<div>
+    <h4>Oblasti</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Oblasti.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Oblasti.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Oblasti.IDPredmeta)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Oblasti.IDPredmeta)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Oblasti?.ID">Edit</a> |
+    <a asp-page="./Oblasti">Nazad na oblasti</a>
+</div>

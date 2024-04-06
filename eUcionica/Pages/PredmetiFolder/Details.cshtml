@@ -1,0 +1,25 @@
+﻿@page
+@model eUcionica.Pages.PredmetiFolder.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Detalji</h1>
+
+<div>
+    <h4>Predmeti</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Predmeti.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Predmeti.Name)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Predmeti?.ID">Edit</a> |
+    <a asp-page="./Predmeti">Nazad na predmete</a>
+</div>
