@@ -1,0 +1,109 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = eUcionica
+build_property.RootNamespace = eUcionica
+build_property.ProjectDir = C:\Users\petar\OneDrive\Radna površina\eUcionica-master\eUcionica\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\petar\OneDrive\Radna površina\eUcionica-master\eUcionica
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/petar/OneDrive/Radna površina/eUcionica-master/eUcionica/Pages/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/petar/OneDrive/Radna površina/eUcionica-master/eUcionica/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/petar/OneDrive/Radna površina/eUcionica-master/eUcionica/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/petar/OneDrive/Radna površina/eUcionica-master/eUcionica/Pages/OblastiFolder/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2JsYXN0aUZvbGRlclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/petar/OneDrive/Radna površina/eUcionica-master/eUcionica/Pages/OblastiFolder/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2JsYXN0aUZvbGRlclxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/petar/OneDrive/Radna površina/eUcionica-master/eUcionica/Pages/OblastiFolder/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2JsYXN0aUZvbGRlclxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/petar/OneDrive/Radna površina/eUcionica-master/eUcionica/Pages/OblastiFolder/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2JsYXN0aUZvbGRlclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/petar/OneDrive/Radna površina/eUcionica-master/eUcionica/Pages/OblastiFolder/Oblasti.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2JsYXN0aUZvbGRlclxPYmxhc3RpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/petar/OneDrive/Radna površina/eUcionica-master/eUcionica/Pages/PredmetiFolder/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJlZG1ldGlGb2xkZXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/petar/OneDrive/Radna površina/eUcionica-master/eUcionica/Pages/PredmetiFolder/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJlZG1ldGlGb2xkZXJcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/petar/OneDrive/Radna površina/eUcionica-master/eUcionica/Pages/PredmetiFolder/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJlZG1ldGlGb2xkZXJcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/petar/OneDrive/Radna površina/eUcionica-master/eUcionica/Pages/PredmetiFolder/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJlZG1ldGlGb2xkZXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/petar/OneDrive/Radna površina/eUcionica-master/eUcionica/Pages/PredmetiFolder/Predmeti.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJlZG1ldGlGb2xkZXJcUHJlZG1ldGkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/petar/OneDrive/Radna površina/eUcionica-master/eUcionica/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/petar/OneDrive/Radna površina/eUcionica-master/eUcionica/Pages/Testovi/testiranje.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVzdG92aVx0ZXN0aXJhbmplLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/petar/OneDrive/Radna površina/eUcionica-master/eUcionica/Pages/ZadaciFolder/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcWmFkYWNpRm9sZGVyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/petar/OneDrive/Radna površina/eUcionica-master/eUcionica/Pages/ZadaciFolder/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcWmFkYWNpRm9sZGVyXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/petar/OneDrive/Radna površina/eUcionica-master/eUcionica/Pages/ZadaciFolder/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcWmFkYWNpRm9sZGVyXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/petar/OneDrive/Radna površina/eUcionica-master/eUcionica/Pages/ZadaciFolder/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcWmFkYWNpRm9sZGVyXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/petar/OneDrive/Radna površina/eUcionica-master/eUcionica/Pages/ZadaciFolder/zadatak.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcWmFkYWNpRm9sZGVyXHphZGF0YWsuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/petar/OneDrive/Radna površina/eUcionica-master/eUcionica/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/petar/OneDrive/Radna površina/eUcionica-master/eUcionica/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/petar/OneDrive/Radna površina/eUcionica-master/eUcionica/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-v6zfz9zx1l
